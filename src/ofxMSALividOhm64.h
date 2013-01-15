@@ -25,6 +25,17 @@ namespace msa {
         } analog;
         
         
+        struct {
+            const int black = 0;
+            const int white = 2;
+            const int cyan = 5;
+            const int purple = 10;
+            const int red = 20;
+            const int blue = 40;
+            const int yellow = 100;
+            const int green = 127;
+        } colors;
+        
 //        
 //        void loadSettings(string filename = "ohmrgb-default.lmd") {
 //            ofLogVerbose() << "msa::midi::OhmRGB - " << filename;
