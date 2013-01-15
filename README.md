@@ -3,7 +3,7 @@ ofxMSALividOhm64
 
 Introduction
 ------------
-A simple class to manage the data of [Livid Ohm64/RGB Midi controllers](http://lividinstruments.com/hardware_ohmrgb.php)
+A simple C++ class to organize the midi data of a [Livid Ohm64/RGB midi controller](http://lividinstruments.com/hardware_ohmrgb.php)
 
 Licence
 -------
