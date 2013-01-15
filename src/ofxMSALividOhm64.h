@@ -26,14 +26,14 @@ namespace msa {
         
         
         struct {
-            const int black = 0;
-            const int white = 2;
-            const int cyan = 5;
-            const int purple = 10;
-            const int red = 20;
-            const int blue = 40;
-            const int yellow = 100;
-            const int green = 127;
+            int black = 0;
+            int white = 2;
+            int cyan = 5;
+            int purple = 10;
+            int red = 20;
+            int blue = 40;
+            int yellow = 100;
+            int green = 127;
         } colors;
         
 //        
