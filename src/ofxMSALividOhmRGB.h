@@ -3,7 +3,7 @@
 
 namespace msa {
     
-    class LividOhm64 {
+    class LividOhmRGB {
     public:
         struct {
             int tap = 87;  // bpm button in top right
