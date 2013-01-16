@@ -26,14 +26,29 @@ namespace msa {
         
         
         struct {
+            // velocity values for each of the colors
             int black = 0;
-            int white = 2;
-            int cyan = 5;
-            int purple = 10;
-            int red = 20;
-            int blue = 40;
-            int yellow = 100;
+            int white = 3;
+            int cyan = 7;
+            int purple = 15;
+            int red = 31;
+            int blue = 63;
+            int yellow = 126;
             int green = 127;
+            
+            // given a velocity value, return a color
+            ofColor get(int velocity) {
+                ofColor color;
+                if(velocity==0) color.set(0, 0, 0, 0);
+                else if(velocity <= white) color.set(255, 255, 255, 255);
+                else if(velocity <= cyan) color.set(0, 128, 255, 255);
+                else if(velocity <= purple) color.set(0, 255, 255, 255);
+                else if(velocity <= red) color.set(255, 0, 0, 255);
+                else if(velocity <= blue) color.set(0, 0, 255, 255);
+                else if(velocity <= yellow) color.set(255, 255, 0, 255);
+                else if(velocity <= green) color.set(0, 255, 0, 255);
+                return color;
+            }
         } colors;
         
 //        
