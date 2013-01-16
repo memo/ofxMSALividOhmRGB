@@ -3,8 +3,8 @@ ofxMSALividOhmRGB
 
 Introduction
 ------------
-A simple C++ class to manage and organize the midi config of a [Livid Ohm64/RGB midi controller](http://lividinstruments.com/hardware_ohmrgb.php)
-The example is a ohmRGB simulator (sends all relevant midi data, updates color LEDs when midi received)
+A simple C++ class to manage and organize the midi config of a [Livid Ohm64/RGB midi controller](http://lividinstruments.com/hardware_ohmrgb.php).  
+The example is an ohmRGB simulator (sends all relevant midi data, updates color LEDs when midi received)
 
 Licence
 -------
