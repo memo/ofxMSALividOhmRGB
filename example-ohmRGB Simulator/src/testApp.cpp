@@ -1,6 +1,6 @@
 #include "testApp.h"
 
-#include "ofxMSALividOhm64.h"
+#include "ofxMSALividOhmRGB.h"
 
 #include "Button.h"
 #include "VFader.h"
@@ -53,13 +53,13 @@ void testApp::setup(){
     midiIn.listPorts();
     //midiIn.openPort(0);
     //midiIn.openPort("IAC Pure Data In");	// by name
-    midiIn.openVirtualPort("ofxMSALividOhm64/RGB input");	// open a virtual port
+    midiIn.openVirtualPort("ofxMSALividOhmRGB input");	// open a virtual port
     midiIn.ignoreTypes(false, false, false);
     midiIn.addListener(this);
     midiIn.setVerbose(true);
     
     midiOut.listPorts();
-    midiOut.openVirtualPort("ofxMSALividOhm64/RGB output");
+    midiOut.openVirtualPort("ofxMSALividOhmRGB output");
     
     
     

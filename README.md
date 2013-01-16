@@ -1,4 +1,4 @@
-ofxMSALividOhm64
+ofxMSALividOhmRGB
 =====================================
 
 Introduction
